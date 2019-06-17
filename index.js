@@ -14,12 +14,12 @@ export default class Hello360 extends React.Component {
   }
 
   _incrementCount = () => {
-    this.setState({ count: this.state.count++ })
+    this.setState({ count: this.state.count + 1 })
   }
 
   _decreaseCount = () => {
     if(this.setState.count > 0){
-      this.setState({ count: this.state.count-- })
+      this.setState({ count: this.state.count - 1 })
     }
   }
 
